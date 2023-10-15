@@ -3,7 +3,7 @@ body {
 	--radius-m: 5px;
 	--radius-l: 7px;
 	--input-radius: 5px;
-	--tab-radius-active: 5px;
+	--tab-radius-active: 5px 5px 0 0;
 	--checkbox-radius: 5px;
 	--toggle-radius: 50px;
 	--toggle-thumb-radius: 50%;
