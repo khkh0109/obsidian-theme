@@ -1,16 +1,17 @@
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+	--radius-s: 3px;
+	--radius-m: 5px;
+	--radius-l: 7px;
+	--input-radius: 5px;
+	--tab-radius-active: 5px;
+	--checkbox-radius: 5px;
+	--toggle-radius: 50px;
+	--toggle-thumb-radius: 50%;
+	--slider-thumb-radius: 50%;
 }
 
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
 	display: none;
 }
 
